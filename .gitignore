@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytest.xml
+.tox/
+.nox/
+nosetests.xml
+test-results/
+
+# Type checkers / linters / formatters
+.mypy_cache/
+.pytype/
+.pyre/
+.pyright/
+.ruff_cache/
+.cache/
+.black_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS / Windows junk
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Numba / scientific caches
+numba_cache/
+.nbc
+.nbi
+
+# Local data / outputs (project root only)
+data/
+datasets/
+outputs/
+results/
+figures/
+plots/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z

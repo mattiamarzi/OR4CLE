@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "or4cle"
-version = "0.0.0"
+version = "0.1.0"
 description = "OR4CLE: Out-of-sample Bayesian Reconstruction for Complex Networks"
 readme = "README.md"
 requires-python = ">=3.10"
