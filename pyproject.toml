@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "or4cle"
+version = "0.0.0"
+description = "OR4CLE: Out-of-sample Bayesian Reconstruction for Complex Networks"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Mattia Marzi"}]
+license = {text = "MIT"}
+keywords = ["networks", "bayesian", "reconstruction", "time-series"]
+
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+scipy = ["scipy>=1.10"]
+dev = ["pytest>=7", "pytest-cov>=4"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

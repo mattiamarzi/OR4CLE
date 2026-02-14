@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use OR4CLE in your work, please cite it using the metadata in this file."
+title: "OR4CLE: Out-of-sample bayesian Reconstruction for Complex Networks"
+type: software
+authors:
+  - family-names: "Marzi"
+    given-names: "Mattia"
+keywords:
+  - network reconstruction
+  - Bayesian inference
+  - out-of-sample reconstruction
+  - maximum entropy
+license: "MIT"
+repository-code: "https://github.com/mattiamarzi/OR4CLE"
+url: "https://github.com/mattiamarzi/OR4CLE"
+version: "0.0.0"
+
+#
+# Preferred citation
+#
+# The user indicated that preprint and paper are not released yet. When you
+# have a DOI/arXiv identifier, replace the placeholder below.
+preferred-citation:
+  type: article
+  title: "OR4CLE: Out-of-sample bayesian Reconstruction for Complex Networks"
+  authors:
+    - family-names: "Marzi"
+      given-names: "Mattia"
+  year: 2026
+  note: "Manuscript in preparation. I'll update this entry with arXiv/DOI when available."
